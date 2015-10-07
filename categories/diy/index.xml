@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diy on hello aws world</title>
+    <link>http://helloawsworld.com/categories/diy/</link>
+    <description>Recent content in Diy on hello aws world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <lastBuildDate>Mon, 28 Sep 2015 23:23:01 -0400</lastBuildDate>
+    <atom:link href="http://helloawsworld.com/categories/diy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://helloawsworld.com/post/hello_world/</link>
+      <pubDate>Mon, 28 Sep 2015 23:23:01 -0400</pubDate>
+      
+      <guid>http://helloawsworld.com/post/hello_world/</guid>
+      <description>
+
+&lt;h1 id=&#34;hello-world:a37038ea9c0a627175646a70bd3fc060&#34;&gt;Hello World&lt;/h1&gt;
+
+&lt;p&gt;Test post.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

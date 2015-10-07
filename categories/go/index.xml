@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on hello aws world</title>
+    <link>http://helloawsworld.com/categories/go/</link>
+    <description>Recent content in Go on hello aws world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <lastBuildDate>Mon, 28 Sep 2015 23:23:01 -0400</lastBuildDate>
+    <atom:link href="http://helloawsworld.com/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://helloawsworld.com/post/hello_world/</link>
+      <pubDate>Mon, 28 Sep 2015 23:23:01 -0400</pubDate>
+      
+      <guid>http://helloawsworld.com/post/hello_world/</guid>
+      <description>
+
+&lt;h1 id=&#34;hello-world:a37038ea9c0a627175646a70bd3fc060&#34;&gt;Hello World&lt;/h1&gt;
+
+&lt;p&gt;A few things happened around the same time.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I started learning Go language&lt;/li&gt;
+&lt;li&gt;AWS released &lt;a href=&#34;https://aws.amazon.com/sdk-for-go/&#34;&gt;AWS SDK for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I wanted to write more about AWS products and services&lt;/li&gt;
+&lt;li&gt;I wanted to try a static site generator which can run easily on many platforms&lt;/li&gt;
+&lt;li&gt;I wanted to host new blog completely on AWS&lt;/li&gt;
+&lt;li&gt;I wanted to get a new domain for the new blog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;go-language:a37038ea9c0a627175646a70bd3fc060&#34;&gt;Go Language&lt;/h2&gt;
+
+&lt;p&gt;I have been using python for a while now. I can&amp;rsquo;t say I am an expert or anything on the language, but I have used it extensively to automate tasks. I worked on &lt;a href=&#34;https://wiki.openstack.org/wiki/Zaqar&#34; title=&#34;OpenStack Zaqar&#34;&gt;OpenStack Zaqar project&lt;/a&gt; for a while and wrote the code to distribute queues on multiple partitions in order to overcome the slowness that comes with MongoDB database &lt;a href=&#34;http://docs.mongodb.org/manual/faq/concurrency/#what-type-of-locking-does-mongodb-use&#34;&gt;locks&lt;/a&gt;. I used python to write a few custom modules for &lt;a href=&#34;http://saltstack.com/&#34; title=&#34;SaltStack&#34;&gt;SaltStack&lt;/a&gt;. I used python in order to learn &lt;a href=&#34;https://en.wikipedia.org/wiki/Consistent_hashing&#34;&gt;consistent hashing&lt;/a&gt; that is used in many eventually consistent distributed applications like &lt;a href=&#34;https://aws.amazon.com/s3/&#34; title=&#34;Amazon S3&#34;&gt;Amazon S3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I liked Python because it was very easy, there is lots of projects written in python I could learn from. Like I wrote, I am not an expert on python neither on Go so I can&amp;rsquo;t compare two languages. I just wanted a language, that it fast, easy to run on different platforms. I tried Go language and found it interesting. I am nowhere yet to say it solves this and that bussiness problem best but what I hear is, it is really good for systems programming because of many reasons all described in this &lt;a href=&#34;https://gist.github.com/ungerik/3731476&#34;&gt;list of articles&lt;/a&gt; compiled by Erik.&lt;/p&gt;
+
+&lt;h2 id=&#34;aws-sdk-for-go:a37038ea9c0a627175646a70bd3fc060&#34;&gt;AWS SDK for Go&lt;/h2&gt;
+
+&lt;p&gt;AWS has SDKs for &lt;a href=&#34;https://aws.amazon.com/tools/&#34;&gt;Java, .NET, PHP, Python, Ruby and Node.js&lt;/a&gt; and Go added to the list recently. My new favorite language would be a good tool to implement many ideas I have around AWS services. It is much easier to use an SDK than calling a restul API directly.&lt;/p&gt;
+
+&lt;h2 id=&#34;writing-about-aws-services:a37038ea9c0a627175646a70bd3fc060&#34;&gt;Writing about AWS Services&lt;/h2&gt;
+
+&lt;p&gt;AWS adds new features and services at a head spinning pace. There is so much to learn, understand, discuss and tell. I want to keep the momentum on writing about topics that I believe will help others following a similar path.&lt;/p&gt;
+
+&lt;h2 id=&#34;static-site-generator:a37038ea9c0a627175646a70bd3fc060&#34;&gt;Static Site Generator&lt;/h2&gt;
+
+&lt;p&gt;I used &lt;a href=&#34;https://jekyllrb.com/&#34; title=&#34;jekyll&#34;&gt;Jekyll&lt;/a&gt; for a while, it for sure is a good static site generator and really integrates well with &lt;a href=&#34;https://pages.github.com/&#34; title=&#34;GitHub Pages&#34;&gt;GitHub Pages&lt;/a&gt;. Jekyll is written in Ruby. I wanted to start using a tool written in Go and I was lucky to find &lt;a href=&#34;https://gohugo.io/&#34; title=&#34;hugo&#34;&gt;Hugo&lt;/a&gt; which is an amazingly fast static site generator. Written in go, code is well written so also a good place to see best practices.&lt;/p&gt;
+
+&lt;h2 id=&#34;hosted-on-aws:a37038ea9c0a627175646a70bd3fc060&#34;&gt;Hosted on AWS&lt;/h2&gt;
+
+&lt;p&gt;I also wanted to host my site on AWS using services like S3, Cloud Front, Route 53 across multiple regions in an HA setup that can bear all kinds of issues. My content will be completely mine and since management overhead of the services I mentioned is very low, I won&amp;rsquo;t need to invest too much time on operations side of the site.&lt;/p&gt;
+
+&lt;h2 id=&#34;new-start-new-domain:a37038ea9c0a627175646a70bd3fc060&#34;&gt;New Start, New Domain&lt;/h2&gt;
+
+&lt;p&gt;For the new site, I wanted to have something easy to remember. It would be good to start with &amp;ldquo;cloud&amp;rdquo; as it is a word probably pronounced more than any other word these days when discussion comes to infrastructure and automation. Since all domain extensions are taken for cloud, I had to find a suffix. I came up with &amp;ldquo;way&amp;rdquo; as it means;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;a method, style, or manner of doing something.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It had to be .io so &lt;strong&gt;cloudway.io&lt;/strong&gt; was my new domain.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
